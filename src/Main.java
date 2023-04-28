@@ -12,8 +12,8 @@ public class Main {
     public static void main(String[] args) {
         RegistreReservation registre = new RegistreReservation();
         // Créer quelques clients et véhicules
-        Client client1 = new Client("Doe", "John", "0123456789", "123456789", "1234567890123456");
-        Client client2 = new Client("Dan", "Nsakamadesu", "0123456789", "123456789", "1234567890123456");
+        Client client1 = new Client("Efqf8ye8","Winner", "Pindi", "23456780987", "reuwgfrhoqwr", "wuhurhfu");
+        Client client2 = new Client("iewhurrwu","Dan", "Nsakamadesu", "0123456789", "123456789", "1234567890123456");
         Vehicule vehicule1 = new Vehicule("Renault", 4, "Essence", "AA-123-BB", TypeVehicule.SIMPLE, "Bon état", "100 000 km");
         Vehicule vehicule2 = new Vehicule("Peugeot", 5, "Diesel", "BB-456-CC", TypeVehicule.PRESTIGE, "Mauvais état", "200 000 km");
 

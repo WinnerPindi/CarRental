@@ -1,9 +1,15 @@
+/*
+* Cas d'utilisation : Créer un nouveau client
+* PAR WINNER MAZONZIKA PINDI
+* */
+
 package model;
 
 import java.lang.reflect.Array;
 import java.util.ArrayList;
 
 public class Client {
+    private String numeroDossier;
     private String nom;
     private String prenom;
     private String telephone;
@@ -12,7 +18,8 @@ public class Client {
     private ArrayList<ConducteurSup> listConducteurSup;
 
     //Constructeur de la classe
-    public Client(String nom, String prenom, String telephone, String numPermis, String carteBancaire) {
+    public Client(String numeroDossier,String nom, String prenom, String telephone, String numPermis, String carteBancaire) {
+        this.numeroDossier = numeroDossier;
         this.nom = nom;
         this.prenom = prenom;
         this.telephone = telephone;
@@ -23,6 +30,14 @@ public class Client {
 
     // Getter et Setter
 
+
+    public String getNumeroDossier() {
+        return numeroDossier;
+    }
+
+    public void setNumeroDossier(String numeroDossier) {
+        this.numeroDossier = numeroDossier;
+    }
 
     public String getNom() {
         return nom;
