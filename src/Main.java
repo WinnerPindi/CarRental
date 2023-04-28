@@ -47,6 +47,7 @@ public class Main {
         List<Reservation> reservationsDates = registre.chercherReservations("2023-05-01", "2023-05-07");
         for (Reservation reservation : reservationsDates) {
             System.out.println(reservation);
+
         }
 
         // Rechercher une réservation spécifique
