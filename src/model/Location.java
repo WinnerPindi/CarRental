@@ -1,3 +1,7 @@
+/*
+ * Cas d'utilisation : LOCATION D'UN VEHICULE POUR LE CLIENT
+ * PAR JULIO BANGADEBIA
+ * */
 package model;
 
 public class Location {
